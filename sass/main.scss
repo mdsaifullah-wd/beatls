@@ -5,6 +5,12 @@
 @import "partials/utilities";
 @import "partials/generals";
 
+// Import Font Face
+@font-face {
+  font-family: Myriad;
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+
 // Header Section
 // ...........................................
 #header {
@@ -22,6 +28,29 @@
       }
       a:hover {
         color: $dark-color;
+      }
+    }
+  }
+  .navbar {
+    .navbar-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+      align-items: center;
+
+      .logo {
+        width: 80px;
+      }
+      .menu {
+        a {
+          color: $dark-color;
+          font-size: 1.6rem;
+          padding: 0 0 0 1.6rem;
+          font-family: "Myriad";
+        }
+        a:hover {
+          color: $main-color;
+        }
       }
     }
   }
