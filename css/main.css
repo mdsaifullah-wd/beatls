@@ -278,6 +278,7 @@ h4 {
   font-size: 3rem;
   font-weight: lighter;
   text-transform: uppercase;
+  margin: 0 0 -0.5rem 0;
 }
 
 #slider .wrapper .slider-text h1 {
