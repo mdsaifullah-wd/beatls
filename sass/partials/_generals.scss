@@ -1,0 +1,22 @@
+body {
+  font-family: $main-font;
+  line-height: 1.6;
+  background: #fff;
+  color: $dark-color;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+img {
+  width: 100%;
+}
+
+h2,
+h3,
+h4 {
+  // text-transform: uppercase;
+}

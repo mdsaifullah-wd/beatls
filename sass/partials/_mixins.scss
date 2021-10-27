@@ -1,0 +1,9 @@
+// Stack Grid Separator
+@mixin stack-grid-separator($color) {
+  border-bottom: 1px $color solid;
+  padding-bottom: 1rem;
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
