@@ -153,6 +153,10 @@
   text-align: center;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
