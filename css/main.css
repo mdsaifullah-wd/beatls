@@ -14,7 +14,12 @@
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+  width: 8.5rem;
+  text-align: center;
   border: none;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -22,12 +27,13 @@
 }
 
 .btn-main {
-  background: #0872b9;
-  color: #353535;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .btn-main:hover {
   background: #0872b9;
+  border: none;
 }
 
 .btn-light {
@@ -159,7 +165,6 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
   background: #fff;
   color: #353535;
 }
@@ -241,4 +246,61 @@ h4 {
 
 #header .navbar .navbar-content .menu a:hover {
   color: #0872b9;
+}
+
+#slider {
+  background: url(../img/slider.jpg) no-repeat center center/cover;
+  padding: 8.5rem 0;
+  position: relative;
+}
+
+#slider .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#slider .wrapper .slider-text {
+  width: 50%;
+  color: #fff;
+  text-align: right;
+  position: relative;
+}
+
+#slider .wrapper .slider-text .large {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+#slider .wrapper .slider-text h1 {
+  font-size: 4rem;
+}
+
+#slider .wrapper .slider-text .small {
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+  line-height: 2.4rem;
+}
+
+#slider .wrapper .slider-text .btn-main {
+  margin: 1.5rem 0 0 2rem;
+}
+
+#slider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
 }

@@ -9,7 +9,12 @@
 // Buttons
 %btn-shared {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+  width: 8.5rem;
+  text-align: center;
   border: none;
   cursor: pointer;
   transition: all 0.5s;
@@ -18,11 +23,12 @@
 .btn {
   &-main {
     @extend %btn-shared;
-    background: $main-color;
-    color: $dark-color;
+    color: #fff;
+    border: 1px solid #fff;
 
     &:hover {
       background: $main-color;
+      border: none;
     }
   }
 

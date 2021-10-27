@@ -55,5 +55,50 @@
     }
   }
 }
+
+// Slider Section
+#slider {
+  background: url(../img/slider.jpg) no-repeat center center/cover;
+  padding: 8.5rem 0;
+  position: relative;
+  .wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    .slider-text {
+      width: 50%;
+      color: #fff;
+      text-align: right;
+      position: relative;
+      .large {
+        font-family: "Oswald", sans-serif;
+        font-size: 3rem;
+        font-weight: lighter;
+        text-transform: uppercase;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+      .small {
+        font-size: 1.3rem;
+        margin: 1.5rem 0;
+        line-height: 2.4rem;
+      }
+      .btn-main {
+        margin: 1.5rem 0 0 2rem;
+      }
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+  }
+}
 // Mobile devices
 @import "partials/mobile";
