@@ -7,6 +7,24 @@
 
 // Header Section
 // ...........................................
-
+#header {
+  .welcome {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    background: $main-color;
+    color: #fff;
+    .welcome-content {
+      display: flex;
+      justify-content: space-between;
+      a {
+        padding: 0 0 0 2.4rem;
+        color: #fff;
+      }
+      a:hover {
+        color: $dark-color;
+      }
+    }
+  }
+}
 // Mobile devices
 @import "partials/mobile";
