@@ -240,5 +240,68 @@
     display: none;
   }
 }
+
+// Our Team Section
+#team {
+  .employees {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    .employee {
+      h3 {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+      }
+      p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        font-weight: 600;
+        color: $medium-color;
+      }
+      .img-wrap {
+        position: relative;
+        .socials {
+          visibility: hidden;
+          background: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 3px;
+          width: 36.36%;
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          padding: 3rem 0;
+
+          a {
+            display: inline-block;
+            margin: auto;
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            border: #fff 1px solid;
+            padding: 1rem;
+            &:hover {
+              background: $main-color-light;
+              border: $main-color-light 1px solid;
+            }
+          }
+          .fab {
+            color: #fff;
+            // position: relative;
+          }
+        }
+      }
+      &:hover {
+        .socials {
+          visibility: visible;
+        }
+        h3 {
+          color: $main-color-light;
+        }
+      }
+    }
+  }
+}
 // Mobile devices
 @import "partials/mobile";
