@@ -351,3 +351,78 @@ h4 {
   line-height: 2.4rem;
   margin: 1.5rem 0;
 }
+
+#services .services-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+#services .services-content div {
+  background: #f1f1f1;
+  padding: 2rem;
+  position: relative;
+  margin: 2rem 0 0 0;
+}
+
+#services .services-content div:hover {
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#services .services-content div:hover .middle {
+  border: #5bc5f4 1px solid;
+}
+
+#services .services-content div:hover .inner {
+  background: #5bc5f4;
+}
+
+#services .services-content div h3 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 3rem 0 1.5rem 0;
+}
+
+#services .services-content div p {
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
+#services .services-content div .circle {
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#services .services-content div .circle:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#services .services-content div .outer {
+  background: #fff;
+  top: -4rem;
+  width: 8rem;
+  height: 8rem;
+}
+
+#services .services-content div .middle {
+  width: 7.5rem;
+  height: 7.5rem;
+  background: #fff;
+  top: -3.75rem;
+  border: #bebebe 1px solid;
+}
+
+#services .services-content div .inner {
+  width: 7rem;
+  height: 7rem;
+  background: #f1f1f1;
+  top: -3.5rem;
+}

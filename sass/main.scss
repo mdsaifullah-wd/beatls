@@ -116,5 +116,77 @@
     }
   }
 }
+
+// Services Section
+#services {
+  .services-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    div {
+      background: $light-color;
+      padding: 2rem;
+      position: relative;
+      margin: 2rem 0 0 0;
+      &:hover {
+        box-shadow: 2px 2px 5px 0 $box-shadow-color,
+          -2px -2px 5px 0 $box-shadow-color;
+        .middle {
+          border: $main-color-light 1px solid;
+        }
+        .inner {
+          background: $main-color-light;
+        }
+      }
+      h3 {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin: 3rem 0 1.5rem 0;
+      }
+      p {
+        font-size: 1.3rem;
+        line-height: 2.4rem;
+      }
+      .circle {
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        &:hover {
+          box-shadow: none;
+        }
+      }
+      .outer {
+        background: #fff;
+
+        top: -4rem;
+
+        width: 8rem;
+        height: 8rem;
+      }
+      .middle {
+        width: 7.5rem;
+        height: 7.5rem;
+
+        background: #fff;
+
+        top: -3.75rem;
+
+        border: darken($color: $light-color, $amount: 20%) 1px solid;
+      }
+      .inner {
+        width: 7rem;
+        height: 7rem;
+
+        background: $light-color;
+
+        top: -3.5rem;
+      }
+    }
+  }
+}
+
 // Mobile devices
 @import "partials/mobile";
