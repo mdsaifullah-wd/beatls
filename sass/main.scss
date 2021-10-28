@@ -101,5 +101,20 @@
     opacity: 0.6;
   }
 }
+
+// About Section
+#about {
+  .about-content {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 2rem;
+    align-items: center;
+    p {
+      font-size: 1.3rem;
+      line-height: 2.4rem;
+      margin: 1.5rem 0;
+    }
+  }
+}
 // Mobile devices
 @import "partials/mobile";

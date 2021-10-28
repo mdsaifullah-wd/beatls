@@ -147,18 +147,40 @@
   line-height: 1.2;
 }
 
-// Bottom Line
-.bottom-line {
-  background: $main-color;
-  width: 3rem;
-  height: 2px;
-  margin: 0 auto 1rem auto;
+// Title Block
+.title-block {
+  width: fit-content;
+  margin: 6rem auto 4rem auto;
 }
 
 // Section Title
 .section-title {
-  font-size: 2rem;
-  padding-bottom: 0.5rem;
-  font-weight: 100;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
   text-align: center;
+}
+// Bottom Line
+.bottom-line {
+  position: relative;
+  top: -0.5rem;
+  div {
+    display: inline-block;
+    height: 2px;
+    background: $main-color;
+  }
+  div:nth-child(1) {
+    width: 4.5rem;
+  }
+  div:nth-child(2) {
+    width: 0.3rem;
+    margin: 0 0 0 0.2rem;
+  }
+  div:nth-child(3) {
+    width: 0.2rem;
+    margin: 0 0 0 0.1rem;
+  }
+  div:nth-child(4) {
+    width: 0.1rem;
+    margin: 0 0 0 0.1rem;
+  }
 }
