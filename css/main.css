@@ -561,3 +561,57 @@ h4 {
 #team .employees .employee:hover h3 {
   color: #5bc5f4;
 }
+
+#testimonial .testimonials {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 0 0 6rem 0;
+}
+
+#testimonial .testimonials .testimonial img {
+  height: 8rem;
+  width: 8rem;
+}
+
+#testimonial .testimonials .testimonial .feedback {
+  background: #f1f1f1;
+  padding: 2rem;
+  margin: 3.5rem 0 0 0;
+  position: relative;
+}
+
+#testimonial .testimonials .testimonial .feedback:after {
+  content: "";
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  width: 0;
+  border-right: 2rem transparent solid;
+  border-left: 2rem transparent solid;
+  border-top: 1.5rem transparent solid;
+  border-bottom: 1.5rem #f1f1f1 solid;
+  margin: auto;
+}
+
+#testimonial .testimonials .testimonial .feedback h3 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+#testimonial .testimonials .testimonial .feedback .fas {
+  color: #5bc5f4;
+}
+
+#testimonial .testimonials .testimonial .feedback p {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
+#testimonial .testimonials .testimonial .feedback .designation {
+  margin: 0 0 0.5rem 0;
+}

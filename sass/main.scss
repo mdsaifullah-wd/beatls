@@ -307,5 +307,57 @@
     }
   }
 }
+
+// Testimonial Section
+#testimonial {
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding: 0 0 6rem 0;
+    .testimonial {
+      img {
+        height: 8rem;
+        width: 8rem;
+      }
+      .feedback {
+        background: $light-color;
+        padding: 2rem;
+        margin: 3.5rem 0 0 0;
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          top: -3rem;
+          left: 0;
+          right: 0;
+          width: 0;
+          border-right: 2rem transparent solid;
+          border-left: 2rem transparent solid;
+          border-top: 1.5rem transparent solid;
+          border-bottom: 1.5rem $light-color solid;
+          margin: auto;
+        }
+        h3 {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+        }
+
+        .fas {
+          color: $main-color-light;
+        }
+
+        p {
+          font-family: "Oswald", sans-serif;
+          font-size: 1.3rem;
+          line-height: 2.4rem;
+        }
+        .designation {
+          margin: 0 0 0.5rem 0;
+        }
+      }
+    }
+  }
+}
 // Mobile devices
 @import "partials/mobile";
