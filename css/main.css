@@ -549,6 +549,11 @@ h4 {
   color: #fff;
 }
 
+#team .employees .employee:hover .img-wrap img {
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 #team .employees .employee:hover .socials {
   visibility: visible;
 }

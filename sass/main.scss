@@ -293,6 +293,10 @@
         }
       }
       &:hover {
+        .img-wrap img {
+          box-shadow: 2px 2px 5px 0 $box-shadow-color,
+            -2px -2px 5px 0 $box-shadow-color;
+        }
         .socials {
           visibility: visible;
         }
