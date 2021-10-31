@@ -212,6 +212,10 @@ img {
   width: 100%;
 }
 
+p {
+  font-size: 1.3rem;
+}
+
 h1,
 h2,
 h3 {
@@ -319,7 +323,6 @@ h4 {
 }
 
 #slider .wrapper .slider-text .small {
-  font-size: 1.3rem;
   margin: 1.5rem 0;
 }
 
@@ -350,7 +353,6 @@ h4 {
 }
 
 #about .about-content p {
-  font-size: 1.3rem;
   margin: 1.5rem 0;
 }
 
@@ -385,10 +387,6 @@ h4 {
 #services .services-content div h3 {
   font-size: 1.6rem;
   margin: 3rem 0 1.5rem 0;
-}
-
-#services .services-content div p {
-  font-size: 1.3rem;
 }
 
 #services .services-content div .circle {
@@ -604,7 +602,6 @@ h4 {
 
 #testimonial .testimonials .testimonial .feedback p {
   font-family: "Oswald", sans-serif;
-  font-size: 1.3rem;
 }
 
 #testimonial .testimonials .testimonial .feedback .designation {
@@ -630,7 +627,6 @@ h4 {
 }
 
 #footer .main-footer .footer-content .about p {
-  font-size: 1.3rem;
   margin: 3rem 0 0 0;
 }
 
@@ -651,10 +647,6 @@ h4 {
   padding: 0.75rem;
   margin: 0 1rem 0 0;
   border-radius: 50%;
-}
-
-#footer .main-footer .footer-content .contact .contact-info p {
-  font-size: 1.3rem;
 }
 
 #footer .main-footer .footer-content .links .links-grid {
@@ -690,7 +682,6 @@ h4 {
   background: #555;
   padding: 1.5rem 0;
   color: #fff;
-  font-size: 1.3rem;
 }
 
 #footer .copyright span {

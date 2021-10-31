@@ -81,7 +81,6 @@
         font-size: 4rem;
       }
       .small {
-        font-size: 1.3rem;
         margin: 1.5rem 0;
       }
       .btn-main {
@@ -109,7 +108,6 @@
     grid-gap: 2rem;
     align-items: center;
     p {
-      font-size: 1.3rem;
       margin: 1.5rem 0;
     }
   }
@@ -140,9 +138,7 @@
         font-size: 1.6rem;
         margin: 3rem 0 1.5rem 0;
       }
-      p {
-        font-size: 1.3rem;
-      }
+
       .circle {
         display: inline-block;
         border-radius: 50%;
@@ -342,7 +338,6 @@
 
         p {
           font-family: "Oswald", sans-serif;
-          font-size: 1.3rem;
         }
         .designation {
           margin: 0 0 0.5rem 0;
@@ -369,7 +364,6 @@
           width: 8rem;
         }
         p {
-          font-size: 1.3rem;
           margin: 3rem 0 0 0;
         }
       }
@@ -385,9 +379,6 @@
             padding: 0.75rem;
             margin: 0 1rem 0 0;
             border-radius: 50%;
-          }
-          p {
-            font-size: 1.3rem;
           }
         }
       }
@@ -422,7 +413,6 @@
     background: $medium-color;
     padding: 1.5rem 0;
     color: set-text-color($medium-color);
-    font-size: 1.3rem;
     span {
       color: $main-color-light;
       text-transform: uppercase;
