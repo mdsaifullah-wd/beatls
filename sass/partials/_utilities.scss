@@ -156,16 +156,14 @@
 // Section Title
 .section-title {
   font-size: 2.4rem;
-  line-height: 2.4rem;
+  line-height: 0;
   text-align: center;
 }
 // Bottom Line
 .bottom-line {
-  position: relative;
-  top: -0.5rem;
   div {
     display: inline-block;
-    height: 2px;
+    height: 1px;
     background: $main-color;
   }
   div:nth-child(1) {
