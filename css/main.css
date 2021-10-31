@@ -196,6 +196,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #fff;
   color: #353535;
+  line-height: 2.4rem;
 }
 
 ul {
@@ -320,7 +321,6 @@ h4 {
 #slider .wrapper .slider-text .small {
   font-size: 1.3rem;
   margin: 1.5rem 0;
-  line-height: 2.4rem;
 }
 
 #slider .wrapper .slider-text .btn-main {
@@ -351,7 +351,6 @@ h4 {
 
 #about .about-content p {
   font-size: 1.3rem;
-  line-height: 2.4rem;
   margin: 1.5rem 0;
 }
 
@@ -385,13 +384,11 @@ h4 {
 
 #services .services-content div h3 {
   font-size: 1.6rem;
-  line-height: 2.4rem;
   margin: 3rem 0 1.5rem 0;
 }
 
 #services .services-content div p {
   font-size: 1.3rem;
-  line-height: 2.4rem;
 }
 
 #services .services-content div .circle {
@@ -498,12 +495,10 @@ h4 {
 
 #team .employees .employee h3 {
   font-size: 1.6rem;
-  line-height: 2.4rem;
 }
 
 #team .employees .employee p {
   font-size: 1.4rem;
-  line-height: 2.4rem;
   font-weight: 600;
   color: #555;
 }
@@ -601,7 +596,6 @@ h4 {
 
 #testimonial .testimonials .testimonial .feedback h3 {
   font-size: 1.6rem;
-  line-height: 2.4rem;
 }
 
 #testimonial .testimonials .testimonial .feedback .fas {
@@ -611,7 +605,6 @@ h4 {
 #testimonial .testimonials .testimonial .feedback p {
   font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
-  line-height: 2.4rem;
 }
 
 #testimonial .testimonials .testimonial .feedback .designation {
@@ -628,7 +621,6 @@ h4 {
 
 #footer .main-footer .footer-content .grid-title {
   font-size: 1.6rem;
-  line-height: 2.4rem;
   font-weight: 400;
   margin: 1rem 0 3rem 0;
 }
@@ -639,7 +631,6 @@ h4 {
 
 #footer .main-footer .footer-content .about p {
   font-size: 1.3rem;
-  line-height: 2.4rem;
   margin: 3rem 0 0 0;
 }
 
@@ -664,7 +655,6 @@ h4 {
 
 #footer .main-footer .footer-content .contact .contact-info p {
   font-size: 1.3rem;
-  line-height: 2.4rem;
 }
 
 #footer .main-footer .footer-content .links .links-grid {
@@ -701,7 +691,6 @@ h4 {
   padding: 1.5rem 0;
   color: #fff;
   font-size: 1.3rem;
-  line-height: 2.4rem;
 }
 
 #footer .copyright span {

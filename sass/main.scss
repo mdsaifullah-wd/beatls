@@ -83,7 +83,6 @@
       .small {
         font-size: 1.3rem;
         margin: 1.5rem 0;
-        line-height: 2.4rem;
       }
       .btn-main {
         margin: 1.5rem 0 0 2rem;
@@ -111,7 +110,6 @@
     align-items: center;
     p {
       font-size: 1.3rem;
-      line-height: 2.4rem;
       margin: 1.5rem 0;
     }
   }
@@ -140,12 +138,10 @@
       }
       h3 {
         font-size: 1.6rem;
-        line-height: 2.4rem;
         margin: 3rem 0 1.5rem 0;
       }
       p {
         font-size: 1.3rem;
-        line-height: 2.4rem;
       }
       .circle {
         display: inline-block;
@@ -250,11 +246,9 @@
     .employee {
       h3 {
         font-size: 1.6rem;
-        line-height: 2.4rem;
       }
       p {
         font-size: 1.4rem;
-        line-height: 2.4rem;
         font-weight: 600;
         color: $medium-color;
       }
@@ -340,7 +334,6 @@
         }
         h3 {
           font-size: 1.6rem;
-          line-height: 2.4rem;
         }
 
         .fas {
@@ -350,7 +343,6 @@
         p {
           font-family: "Oswald", sans-serif;
           font-size: 1.3rem;
-          line-height: 2.4rem;
         }
         .designation {
           margin: 0 0 0.5rem 0;
@@ -369,7 +361,6 @@
       grid-gap: 2rem;
       .grid-title {
         font-size: 1.6rem;
-        line-height: 2.4rem;
         font-weight: 400;
         margin: 1rem 0 3rem 0;
       }
@@ -379,7 +370,6 @@
         }
         p {
           font-size: 1.3rem;
-          line-height: 2.4rem;
           margin: 3rem 0 0 0;
         }
       }
@@ -398,7 +388,6 @@
           }
           p {
             font-size: 1.3rem;
-            line-height: 2.4rem;
           }
         }
       }
@@ -434,7 +423,6 @@
     padding: 1.5rem 0;
     color: set-text-color($medium-color);
     font-size: 1.3rem;
-    line-height: 2.4rem;
     span {
       color: $main-color-light;
       text-transform: uppercase;
