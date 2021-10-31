@@ -268,6 +268,7 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: normal;
 }
 
 #header .navbar .navbar-content .logo {
@@ -315,19 +316,21 @@ h4 {
   font-size: 3rem;
   font-weight: lighter;
   text-transform: uppercase;
-  margin: 0 0 -0.5rem 0;
+  line-height: 100%;
 }
 
 #slider .wrapper .slider-text h1 {
   font-size: 4rem;
+  line-height: 100%;
+  margin: 1.5rem 0 0 0;
 }
 
 #slider .wrapper .slider-text .small {
-  margin: 1.5rem 0;
+  margin: 3rem 0;
 }
 
 #slider .wrapper .slider-text .btn-main {
-  margin: 1.5rem 0 0 2rem;
+  margin: 0 0 0 2rem;
 }
 
 #slider::before {
