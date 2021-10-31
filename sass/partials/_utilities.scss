@@ -24,6 +24,7 @@
     @extend %btn-shared;
     color: #fff;
     border: 1px solid #fff;
+    transition: background, border, 150ms ease-in-out;
 
     &:hover {
       background: $main-color;

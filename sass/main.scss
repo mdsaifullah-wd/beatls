@@ -29,6 +29,7 @@
       a {
         padding: 0 0 0 2.4rem;
         color: #fff;
+        transition: color 150ms ease-in-out;
       }
       a:hover {
         color: $dark-color;
@@ -52,6 +53,7 @@
           font-size: 1.4rem;
           padding: 0 0 0 1.6rem;
           font-family: "Myriad";
+          transition: color 150ms ease-in-out;
         }
         a:hover {
           color: $main-color;
@@ -132,6 +134,7 @@
       padding: 2rem;
       position: relative;
       margin: 3.5rem 0 0 0;
+      transition: box-shadow 150ms ease-in-out;
       &:hover {
         box-shadow: 2px 2px 5px 0 $box-shadow-color,
           -2px -2px 5px 0 $box-shadow-color;
@@ -175,6 +178,7 @@
         top: -3.75rem;
 
         border: darken($color: $light-color, $amount: 20%) 1px solid;
+        transition: border 150ms ease-in-out;
       }
       .inner {
         width: 7rem;
@@ -183,6 +187,7 @@
         background: $light-color;
 
         top: -3.5rem;
+        transition: background 150ms ease-in-out;
       }
     }
   }
@@ -203,10 +208,10 @@
     background: $img-bg-color;
     margin: 2rem 0 0 0;
     position: relative;
-    &:hover:after {
+    &::after {
       content: "";
       background: #000;
-      opacity: 0.6;
+      opacity: 0;
       position: absolute;
       top: 0;
       right: 0;
@@ -214,10 +219,14 @@
       left: 0;
       width: 100%;
       height: 100%;
+      transition: opacity 150ms ease-in-out;
+    }
+    &:hover::after {
+      opacity: 0.6;
     }
     &:hover {
       .hover-icon {
-        display: block;
+        visibility: visible;
       }
     }
   }
@@ -237,7 +246,7 @@
     background: $main-color-light;
     border-radius: 50%;
     z-index: 1;
-    display: none;
+    visibility: hidden;
   }
 }
 
@@ -251,6 +260,7 @@
       h3 {
         font-size: 1.6rem;
         margin: 0.5rem 0 0 0;
+        transition: color 150ms ease-in-out;
       }
       p {
         font-size: 1.4rem;
@@ -260,9 +270,10 @@
       .img-wrap {
         position: relative;
         line-height: 0;
+        transition: box-shadow 150ms ease-in-out;
         .socials {
           visibility: hidden;
-          background: rgba(0, 0, 0, 0.6);
+          background: rgba(0, 0, 0, 0);
           position: absolute;
           top: 0;
           right: 0;
@@ -272,6 +283,7 @@
           flex-direction: column;
           align-content: center;
           padding: 3rem 0;
+          transition: all 100ms ease-in-out;
 
           a {
             display: inline-block;
@@ -281,6 +293,7 @@
             border-radius: 50%;
             border: #fff 1px solid;
             padding: 1rem;
+            transition: background, border 150ms ease-in-out;
             &:hover {
               background: $main-color-light;
               border: $main-color-light 1px solid;
@@ -299,6 +312,7 @@
         }
         .socials {
           visibility: visible;
+          background: rgba(0, 0, 0, 0.6);
         }
         h3 {
           color: $main-color-light;
@@ -405,6 +419,7 @@
             font-size: 1.3rem;
             line-height: 3.6rem;
             margin: 0 0 0.2rem 0;
+            transition: color 150ms ease-in-out;
             &:hover {
               color: $main-color-light;
             }
