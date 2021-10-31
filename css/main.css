@@ -501,6 +501,7 @@ h4 {
 
 #team .employees .employee .img-wrap {
   position: relative;
+  line-height: 0;
 }
 
 #team .employees .employee .img-wrap .socials {
@@ -509,7 +510,7 @@ h4 {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 3px;
+  bottom: 0;
   width: 36.36%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,7 +543,7 @@ h4 {
   color: #fff;
 }
 
-#team .employees .employee:hover .img-wrap img {
+#team .employees .employee:hover .img-wrap {
   -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 5px 0 rgba(0, 0, 0, 0.2);
 }
