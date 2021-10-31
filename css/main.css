@@ -17,13 +17,11 @@
   font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
-  padding: 0.6rem 0;
-  width: 8.5rem;
+  padding: 1rem 2rem;
   text-align: center;
   border: none;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  line-height: 100%;
 }
 
 .btn-main {
@@ -33,7 +31,7 @@
 
 .btn-main:hover {
   background: #0872b9;
-  border: none;
+  border: 1px solid #0872b9;
 }
 
 .btn-light {
