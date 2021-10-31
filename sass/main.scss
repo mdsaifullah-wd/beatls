@@ -133,11 +133,10 @@
       background: $light-color;
       padding: 2rem;
       position: relative;
-      margin: 3.5rem 0 0 0;
+      margin: 3.5rem 0 1rem 0;
       transition: box-shadow 150ms ease-in-out;
       &:hover {
-        box-shadow: 2px 2px 5px 0 $box-shadow-color,
-          -2px -2px 5px 0 $box-shadow-color;
+        box-shadow: 0 0 10px 0 $box-shadow-color;
         .middle {
           border: $main-color-light 1px solid;
         }
@@ -195,6 +194,7 @@
 
 // Portfolio Section
 #gallery {
+  margin: -1rem 0 0 0;
   .row {
     display: flex;
     grid-gap: 2rem;
@@ -307,8 +307,7 @@
       }
       &:hover {
         .img-wrap {
-          box-shadow: 2px 2px 5px 0 $box-shadow-color,
-            -2px -2px 5px 0 $box-shadow-color;
+          box-shadow: 0 0 10px 0 $box-shadow-color;
         }
         .socials {
           visibility: visible;
