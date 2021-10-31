@@ -489,11 +489,12 @@ h4 {
 
 #team .employees .employee h3 {
   font-size: 1.6rem;
+  margin: 0.5rem 0 0 0;
 }
 
 #team .employees .employee p {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-family: "Oswald", sans-serif;
   color: #555;
 }
 
