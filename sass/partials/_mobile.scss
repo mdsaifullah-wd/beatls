@@ -76,6 +76,16 @@
   #testimonial .testimonials {
     grid-template-columns: 1fr;
   }
+  #header {
+    .navbar {
+      .navbar-content {
+        flex-direction: column;
+        .menu {
+          padding: 2rem 0 0 0;
+        }
+      }
+    }
+  }
   #slider {
     .wrapper {
       .slider-text {

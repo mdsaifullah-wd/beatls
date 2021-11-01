@@ -790,6 +790,15 @@ h4 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  #header .navbar .navbar-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #header .navbar .navbar-content .menu {
+    padding: 2rem 0 0 0;
+  }
   #slider .wrapper .slider-text {
     width: 100%;
   }
