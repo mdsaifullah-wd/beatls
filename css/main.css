@@ -867,6 +867,12 @@ h4 {
   }
 }
 
+@media (max-width: 360px) {
+  #header .navbar .navbar-content .menu a {
+    padding: 0 0.3rem;
+  }
+}
+
 @media (max-height: 500px) {
   #header .welcome {
     display: none;
