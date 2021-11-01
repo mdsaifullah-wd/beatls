@@ -861,7 +861,7 @@ h4 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   #header .navbar .navbar-content .menu a {
     padding: 0 0.5rem;
   }
