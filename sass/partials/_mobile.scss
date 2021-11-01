@@ -83,8 +83,10 @@
         flex-direction: column;
         .menu {
           padding: 2rem 0 0 0;
+          display: flex;
+          justify-content: space-around;
           a {
-            padding: 0 0.8rem;
+            padding: 0 0.3rem;
           }
         }
       }
@@ -174,33 +176,6 @@
         .photos {
           .photo-grid {
             margin: 1rem 0 0 0;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 375px) {
-  #header {
-    .navbar {
-      .navbar-content {
-        .menu {
-          a {
-            padding: 0 0.5rem;
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 360px) {
-  #header {
-    .navbar {
-      .navbar-content {
-        .menu {
-          a {
-            padding: 0 0.3rem;
           }
         }
       }
