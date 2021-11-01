@@ -1,21 +1,82 @@
 // Tablet & Smaller Devices
 // ............................................
 @media (max-width: 800px) {
-  
+  #team {
+    .employees {
+      .employee {
+        .img-wrap {
+          .socials {
+            a {
+              height: 3rem;
+              width: 3rem;
+              padding: 0.75rem;
+            }
+            .fab {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .main-footer {
+      .footer-content {
+        grid-template-columns: repeat(4, 1fr);
+        .grid-title {
+          margin: 1rem 0 2rem 0;
+        }
+        .about {
+          p {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            margin: 1rem 0 0 0;
+          }
+        }
+        .contact {
+          .contact-info {
+            padding: 0.5rem 0 0 0;
+            .fas {
+              height: 3rem;
+              width: 3rem;
+              padding: 0.75rem;
+              //   font-size: 1.2rem;
+            }
+            p {
+              font-size: 1.2rem;
+              line-height: 2rem;
+            }
+          }
+        }
+        .links {
+          .links-grid {
+            margin: 1rem 0 0 0;
+            grid-gap: 1rem;
+            a {
+              line-height: 2rem;
+            }
+          }
+        }
+        .photos {
+          .photo-grid {
+            margin: 1rem 0 0 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Smartphones
 // ............................................
 @media (max-width: 500px) {
-  
 }
 
 @media (max-width: 320px) {
- 
 }
 
 // Landscape
 // ............................................
 @media (max-height: 500px) {
-  
 }

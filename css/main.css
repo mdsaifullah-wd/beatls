@@ -737,3 +737,49 @@ h4 {
   color: #5bc5f4;
   text-transform: uppercase;
 }
+
+@media (max-width: 800px) {
+  #team .employees .employee .img-wrap .socials a {
+    height: 3rem;
+    width: 3rem;
+    padding: 0.75rem;
+  }
+  #team .employees .employee .img-wrap .socials .fab {
+    font-size: 1.5rem;
+  }
+  #footer .main-footer .footer-content {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  #footer .main-footer .footer-content .grid-title {
+    margin: 1rem 0 2rem 0;
+  }
+  #footer .main-footer .footer-content .about p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin: 1rem 0 0 0;
+  }
+  #footer .main-footer .footer-content .contact .contact-info {
+    padding: 0.5rem 0 0 0;
+  }
+  #footer .main-footer .footer-content .contact .contact-info .fas {
+    height: 3rem;
+    width: 3rem;
+    padding: 0.75rem;
+  }
+  #footer .main-footer .footer-content .contact .contact-info p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #footer .main-footer .footer-content .links .links-grid {
+    margin: 1rem 0 0 0;
+    grid-gap: 1rem;
+  }
+  #footer .main-footer .footer-content .links .links-grid a {
+    line-height: 2rem;
+  }
+  #footer .main-footer .footer-content .photos .photo-grid {
+    margin: 1rem 0 0 0;
+  }
+}
