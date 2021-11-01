@@ -453,23 +453,23 @@ h4 {
 }
 
 #gallery .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
-  margin: -2rem 0 0 0;
 }
 
 #gallery .column {
-  -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
-  max-width: 25%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
 }
 
 #gallery .img-wrap {
   background: #ccc;
-  margin: 2rem 0 0 0;
   position: relative;
 }
 
@@ -757,7 +757,6 @@ h4 {
   #footer .main-footer .footer-content .about p {
     font-size: 1.2rem;
     line-height: 1.5rem;
-    text-align: justify;
     margin: 1rem 0 0 0;
   }
   #footer .main-footer .footer-content .contact .contact-info {
@@ -778,6 +777,69 @@ h4 {
   }
   #footer .main-footer .footer-content .links .links-grid a {
     line-height: 2rem;
+  }
+  #footer .main-footer .footer-content .photos .photo-grid {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #about .about-content,
+  #services .services-content,
+  #testimonial .testimonials {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #slider .wrapper .slider-text {
+    width: 100%;
+  }
+  #services .services-content div {
+    width: 80%;
+    margin: 3.5rem auto 1rem auto;
+  }
+  #gallery .row {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  #team .employees .employee h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  #team .employees .employee p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  #team .employees .employee .img-wrap .socials {
+    padding: 1rem 0;
+  }
+  #team .employees .employee .img-wrap .socials a {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem;
+  }
+  #team .employees .employee .img-wrap .socials .fab {
+    font-size: 1rem;
+  }
+  #testimonial .testimonials .testimonial {
+    width: 80%;
+    margin: auto;
+  }
+  #footer .main-footer .footer-content {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  #footer .main-footer .footer-content .about p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  #footer .main-footer .footer-content .contact .contact-info p {
+    font-size: 1.1rem;
+  }
+  #footer .main-footer .footer-content .links .links-grid {
+    grid-gap: 1rem;
+  }
+  #footer .main-footer .footer-content .links .links-grid a {
+    line-height: 2.4rem;
   }
   #footer .main-footer .footer-content .photos .photo-grid {
     margin: 1rem 0 0 0;

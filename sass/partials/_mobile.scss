@@ -30,7 +30,6 @@
           p {
             font-size: 1.2rem;
             line-height: 1.5rem;
-            text-align: justify;
             margin: 1rem 0 0 0;
           }
         }
@@ -70,7 +69,102 @@
 
 // Smartphones
 // ............................................
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  // Stack Grids
+  #about .about-content,
+  #services .services-content,
+  #testimonial .testimonials {
+    grid-template-columns: 1fr;
+  }
+  #slider {
+    .wrapper {
+      .slider-text {
+        width: 100%;
+      }
+    }
+  }
+  #services {
+    .services-content {
+      div {
+        width: 80%;
+        margin: 3.5rem auto 1rem auto;
+      }
+    }
+  }
+  #gallery {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  #team {
+    .employees {
+      .employee {
+        h3 {
+          font-size: 1.2rem;
+          line-height: 1.5rem;
+        }
+        p {
+          font-size: 1rem;
+          line-height: 1.2rem;
+        }
+        .img-wrap {
+          .socials {
+            padding: 1rem 0;
+            a {
+              height: 2rem;
+              width: 2rem;
+              padding: 0.5rem;
+            }
+            .fab {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  #testimonial {
+    .testimonials {
+      .testimonial {
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+  #footer {
+    .main-footer {
+      .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        .about {
+          //   margin: 1rem 0 0 0;
+          p {
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+          }
+        }
+        .contact {
+          .contact-info {
+            p {
+              font-size: 1.1rem;
+            }
+          }
+        }
+        .links {
+          .links-grid {
+            grid-gap: 1rem;
+            a {
+              line-height: 2.4rem;
+            }
+          }
+        }
+        .photos {
+          .photo-grid {
+            margin: 1rem 0 0 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 320px) {

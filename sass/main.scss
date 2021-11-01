@@ -196,17 +196,17 @@
 #gallery {
   margin: -1rem 0 0 0;
   .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    margin: -2rem 0 0 0;
   }
   .column {
-    flex: 25%;
-    max-width: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
   }
   .img-wrap {
     background: $img-bg-color;
-    margin: 2rem 0 0 0;
     position: relative;
     &::after {
       content: "";
