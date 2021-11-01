@@ -13,3 +13,12 @@ $('a').on('click', function(event) {
       );
     }
   });
+
+   // Sticky menu background
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 50) {
+    document.querySelector('#header').style.opacity = 0.95;
+  } else {
+    document.querySelector('#header').style.opacity = 1;
+  }
+});
