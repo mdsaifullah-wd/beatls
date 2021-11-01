@@ -173,4 +173,52 @@
 // Landscape
 // ............................................
 @media (max-height: 500px) {
+  #header {
+    .welcome {
+      display: none;
+    }
+    .navbar {
+      .navbar-content {
+        padding: 1.5rem 0;
+      }
+    }
+  }
+  #slider {
+    padding: 3rem 0;
+    .wrapper {
+      .slider-text {
+        .large {
+          font-size: 2.5rem;
+        }
+        h1 {
+          font-size: 3.5rem;
+        }
+        .small {
+          margin: 1.5rem 0;
+        }
+      }
+    }
+  }
+}
+@media (max-height: 500px) and (min-width: 800px) {
+  #footer {
+    .main-footer {
+      .footer-content {
+        .about {
+          p {
+            font-size: 1.2rem;
+            margin: 2rem 0 0 0;
+            line-height: 2rem;
+          }
+        }
+        .links {
+          .links-grid {
+            a {
+              line-height: 2.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -845,3 +845,35 @@ h4 {
     margin: 1rem 0 0 0;
   }
 }
+
+@media (max-height: 500px) {
+  #header .welcome {
+    display: none;
+  }
+  #header .navbar .navbar-content {
+    padding: 1.5rem 0;
+  }
+  #slider {
+    padding: 3rem 0;
+  }
+  #slider .wrapper .slider-text .large {
+    font-size: 2.5rem;
+  }
+  #slider .wrapper .slider-text h1 {
+    font-size: 3.5rem;
+  }
+  #slider .wrapper .slider-text .small {
+    margin: 1.5rem 0;
+  }
+}
+
+@media (max-height: 500px) and (min-width: 800px) {
+  #footer .main-footer .footer-content .about p {
+    font-size: 1.2rem;
+    margin: 2rem 0 0 0;
+    line-height: 2rem;
+  }
+  #footer .main-footer .footer-content .links .links-grid a {
+    line-height: 2.4rem;
+  }
+}
