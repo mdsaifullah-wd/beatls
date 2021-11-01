@@ -77,6 +77,7 @@
     grid-template-columns: 1fr;
   }
   #header {
+    position: static;
     .navbar {
       .navbar-content {
         flex-direction: column;

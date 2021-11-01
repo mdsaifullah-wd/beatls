@@ -790,6 +790,9 @@ h4 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  #header {
+    position: static;
+  }
   #header .navbar .navbar-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
