@@ -83,6 +83,9 @@
         flex-direction: column;
         .menu {
           padding: 2rem 0 0 0;
+          a {
+            padding: 0 0.8rem;
+          }
         }
       }
     }
@@ -178,7 +181,18 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
+  #header {
+    .navbar {
+      .navbar-content {
+        .menu {
+          a {
+            padding: 0 0.5rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Landscape

@@ -802,6 +802,9 @@ h4 {
   #header .navbar .navbar-content .menu {
     padding: 2rem 0 0 0;
   }
+  #header .navbar .navbar-content .menu a {
+    padding: 0 0.8rem;
+  }
   #slider .wrapper .slider-text {
     width: 100%;
   }
@@ -855,6 +858,12 @@ h4 {
   }
   #footer .main-footer .footer-content .photos .photo-grid {
     margin: 1rem 0 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #header .navbar .navbar-content .menu a {
+    padding: 0 0.5rem;
   }
 }
 
