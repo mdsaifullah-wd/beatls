@@ -63,7 +63,8 @@
   }
 }
 
-// Slider Section
+// Section: Slider
+// ...........................................
 #slider {
   background: url(../img/slider.jpg) no-repeat center center/cover;
   padding: 8.5rem 0;
@@ -109,7 +110,8 @@
   }
 }
 
-// About Section
+// Section: About Us
+// ...........................................
 #about {
   .about-content {
     display: grid;
@@ -123,7 +125,8 @@
   }
 }
 
-// Services Section
+// Section: Our Services
+// ...........................................
 #services {
   .services-content {
     display: grid;
@@ -192,7 +195,8 @@
   }
 }
 
-// Portfolio Section
+// Section: Our Portfolio
+// ...........................................
 #gallery {
   margin: -1rem 0 0 0;
   .row {
@@ -250,7 +254,8 @@
   }
 }
 
-// Our Team Section
+// Section: Our Team
+// ...........................................
 #team {
   .employees {
     display: grid;
@@ -301,7 +306,6 @@
           }
           .fab {
             color: #fff;
-            // position: relative;
           }
         }
       }
@@ -321,7 +325,8 @@
   }
 }
 
-// Testimonial Section
+// Section: Testimonial
+// ...........................................
 #testimonial {
   .testimonials {
     display: grid;
@@ -371,6 +376,7 @@
 }
 
 // Footer Section
+// ...........................................
 #footer {
   .main-footer {
     .footer-content {
@@ -444,5 +450,7 @@
     }
   }
 }
+
 // Mobile devices
+// ...........................................
 @import "partials/mobile";

@@ -1,4 +1,5 @@
 // Smooth Scrolling
+// ...........................................
 $('a').on('click', function(event) {
     if (this.hash !== '') {
       event.preventDefault();
@@ -14,7 +15,8 @@ $('a').on('click', function(event) {
     }
   });
 
-   // Sticky menu background
+// Sticky menu background
+// ...........................................
 window.addEventListener('scroll', function() {
   if (window.scrollY > 50) {
     document.querySelector('#header').style.opacity = 0.95;
