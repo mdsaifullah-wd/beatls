@@ -125,25 +125,17 @@
   }
   #team {
     .employees {
+      grid-template-columns: repeat(2, 1fr);
       .employee {
-        h3 {
-          font-size: 1.2rem;
-          line-height: 1.5rem;
-        }
-        p {
-          font-size: 1rem;
-          line-height: 1.2rem;
-        }
         .img-wrap {
           .socials {
-            padding: 1rem 0;
             a {
-              height: 2rem;
-              width: 2rem;
-              padding: 0.5rem;
+              height: 4rem;
+              width: 4rem;
+              padding: 1rem;
             }
             .fab {
-              font-size: 1rem;
+              font-size: 2rem;
             }
           }
         }

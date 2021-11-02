@@ -563,7 +563,7 @@ h4 {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 3rem 0;
+  padding: 14% 0;
   -webkit-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
 }
@@ -828,24 +828,17 @@ h4 {
   #gallery .column {
     grid-gap: 1rem;
   }
-  #team .employees .employee h3 {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-  #team .employees .employee p {
-    font-size: 1rem;
-    line-height: 1.2rem;
-  }
-  #team .employees .employee .img-wrap .socials {
-    padding: 1rem 0;
+  #team .employees {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
   #team .employees .employee .img-wrap .socials a {
-    height: 2rem;
-    width: 2rem;
-    padding: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
   }
   #team .employees .employee .img-wrap .socials .fab {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   #testimonial .testimonials .testimonial {
     width: 80%;
