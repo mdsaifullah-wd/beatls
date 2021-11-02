@@ -78,6 +78,13 @@
   }
   #header {
     position: static;
+    .welcome {
+      .welcome-content {
+        a {
+          padding: 0 0 0 1.5rem;
+        }
+      }
+    }
     .navbar {
       .navbar-content {
         flex-direction: column;
